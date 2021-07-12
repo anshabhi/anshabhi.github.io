@@ -1,26 +1,27 @@
 [
+ 
   {
-    "title": "Verly.js",
+    "title": "(Research) A study on parameter pruning and quantization for faster alignment and averaging of subtomograms captured by cryo-electron tomography",
     "links": {
-      "codepen": "//codepen.io/anuraghazra/embed/vwmLKo/?default-tab=result&theme-id=light",
-      "github": "//github.com/anuraghazra/Verly.js"
+      "codepen": "",
+      "github": "https://github.com/anshabhi/model_compression"
     },
-    "description": "Verly.js is an easy to integrate verlet physics engine made with javascript. It is also my most popular open-source project on GitHub, so far it got over 200 stars on Github and got mentioned in codepen spark"
+    "description": "We study how parameter pruning and quantization, a famous model compression method, can be applied to the alignment of subtomograms captured by cryo-electron tomography. We try to explain the physical significance of the model compression obtained through this method. Later, we compare the compression achieved and the error incurred for the compressed models through each technique. We present the results for five datasets, all simulated at different SNR levels. Gum-Net, an unsupervised model for Subtomogram Image Alignment and Averaging, has been used as the base model in this study."
   },
   {
-    "title": "Atomic.js",
+    "title": "(Research) Natural Language Query Formalization to SPARQL For Querying Knowledge Bases Using Rasa",
     "links": {
-      "codepen": "//codepen.io/anuraghazra/embed/JxYGNL/?default-tab=result&theme-id=light",
-      "github": "//github.com/anuraghazra/atomic.js"
+      "codepen": "",
+      "github": "https://github.com/anshabhi/rasa-project"
     },
-    "description": "Atomic.js is a Greatly Simple 2D Physics Engine. It is collision detection and resolution engine. It can be used in 2d HTML5 games and 2d physics simulations. It uses the SAT (Separating Axis Theorem) Collision Detection and mass separation collision resolution."
+    "description": "This paper discusses an AI-based approach with the design of an ontology searching chat-bot that incorporates natural language query formalization for querying linked data using RASA for entity extraction after intent recognition. A precision-recall analysis is performed using in-built RASA tools in conjunction with our own testing parameters, and it is found that the accuracy of our methodology is at parwith the current state of the art."
   },
-  {
-    "title": "Candy.js",
+   {
+    "title": "DeepLearning.ai Specialization",
     "links": {
-      "codepen": "//codepen.io/anuraghazra/embed/pGjvaR/?default-tab=result&theme-id=light",
-      "github": "//github.com/anuraghazra/Candy.js"
+      "codepen": "https://res.cloudinary.com/dosluptl1/image/upload/v1625075486/deeplearning_qctfmd.gif",
+      "github": "https://github.com/anshabhi/deeplearning.ai"
     },
-    "description": "Candy.js is CanvasAPI Rendering Toolkit Library. P5.js's methods and functions highly inspire Candy.js. But it is more geared towards simplicity and utility functions."
+    "description": "This is a 5 course intermediate level deeplearning specialization offered by world renowned Machine Learning Teacher, Andrew Ng. The topics learned include developing and improving neural networks, including special cases like Convolutional Neural Networks and Sequence Models, along with structuring machine learning projects. The specialization involves around 20 assignments using Tensorflow and other Python libraries. Some notable projects include autonomous driving systems, neural art transfer and trigger word detection."
   }
 ]

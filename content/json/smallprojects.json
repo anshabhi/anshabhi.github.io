@@ -1,42 +1,26 @@
 [
   {
-    "title": "Creative Chat",
+    "title": "Face Recognition API",
     "links": {
-      "demo": "https://creativechat.herokuapp.com",
-      "src": "https://github.com/anuraghazra/creativechat"
+      "demo": "https://facerec-portfolio.loca.lt",
+      "src": "https://github.com/anshabhi/ittproject"
     },
-    "description": "Creative Chat is a realtime fun chatting app. where users can draw with colors in the canvas and communicate through art."
+    "description": "This project involves building an attendance system where students can mark attendance by their face. The instructors can control whether a subject should accept attendance or not. The system uses Azure API for face recognition, and Python CGI as the backend along with MongoDB database layer."
   },
   {
-    "title": "Verly.js",
+    "title": "DubCen Calculators and Converters",
+    "links": {
+      "demo": "https://anshabhi.github.io/dubcen/",
+      "src": "https://github.com/anshabhi/dubcen"
+    },
+    "description": "DubCen is a collection of 50 beautiful calculators and a multi feature unit converter, which can convert 23 quantities and over 1000 units. DubCen is available for free under GNU License. I developed this project as a high school project."
+  },
+  {
+    "title": "Oracle VM powering all the demos",
     "links": {
       "demo": "https://anuraghazra.github.io/Verly.js",
       "src": "https://github.com/anuraghazra/Verly.js"
     },
-    "description": "Verly.js is a successor to my old Verlet.js Physics Engine. Very.js is more simple to use and very modular. Easy to integrate verlet physics engine."
-  },
-  {
-    "title": "Simple Rockets",
-    "links": {
-      "demo": "https://simplerockets.herokuapp.com",
-      "src": "https://github.com/anuraghazra/simplerockets"
-    },
-    "description": "Simple Rockets is an online multiplayer game made with NodeJS and Socket.io. All of the players can join the game with their unique name and play."
-  },
-  {
-    "title": "ParticleBrush",
-    "links": {
-      "demo": "https://anuraghazra.github.io/ParticleBrush/",
-      "src": "https://github.com/anuraghazra/ParticleBrush"
-    },
-    "description": "Amazing Drawing App With Particles. Lots Of Colorful Particles."
-  },
-  {
-    "title": "CanvasFun",
-    "links": {
-      "demo": "https://anuraghazra.github.io/CanvasFun",
-      "src": "https://github.com/anuraghazra/CanvasFun"
-    },
-    "description": "Collection of CreativeCoding projects."
+    "description": "All of the above demos are hosted on a virtual machine provided for free with oracle VM. Setting up this VM highlights my expertise in working with UNIX based systems. The VM is a 4 core AARCH64 based machine. The github repo contains many interesting details about the VM."
   }
 ]

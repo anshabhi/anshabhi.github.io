@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutWrapper = styled.section`
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 
   @media ${props => props.theme.media.tablet} {
     position: relative;

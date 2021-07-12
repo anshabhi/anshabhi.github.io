@@ -22,11 +22,13 @@ function Contact() {
         <LeftContent>
           <FontAwesomeIcon size={'5x'} icon="handshake" />
           <h3>Thank You</h3>
-          <p>Do You Have Any Queries?</p>
+          <p>Do You Have Any Relevant openings for
+			<br />
+		  me or any other queries?</p>
         </LeftContent>
         <ContactForm
           noValidate
-          action="https://formspree.io/hazru.anurag@gmail.com"
+          action="https://formspree.io/f/mgerzdyg"
           method="POST"
         >
           <label className="label__email">

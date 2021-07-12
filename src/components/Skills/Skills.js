@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Flex from '@src/components/common/Flex';
 
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
+import Avatar from './Avatar';
+//import AvatarSmall from './AvatarSmall';
 
 const SkillsWrapper = styled.section`
   ${props => props.theme.spacing.sectionBottom};
@@ -41,20 +43,13 @@ const SkillsWrapper = styled.section`
 const WordClouds = () => {
   return (
     <Parallax
-      y={['-350px', '-150px']}
+      y={['-350px', '150px']}
       slowerScrollRate={true}
       aria-hidden="true"
       className="skills__word-clouds"
     >
-      <p style={{ top: 50, left: '100%', fontSize: 23 }}>HTML5</p>
-      <p style={{ top: 0, left: 0, fontSize: 25 }}>WebGL</p>
-      <p style={{ top: 200, left: -60, fontSize: 14 }}>CSS3</p>
-      <p style={{ top: '30%', left: '35%', fontSize: 18 }}>figma</p>
-      <p style={{ top: 40, left: '75%', fontSize: 12 }}>antd</p>
-      <p style={{ top: 380, left: '85%', fontSize: 18 }}>MongoDB</p>
-      <p style={{ top: 320, left: '65%', fontSize: 18 }}>Gatsby</p>
-      <p style={{ top: 350, left: 150, fontSize: 20 }}>ES6</p>
-      <p style={{ top: 120, left: '22%', fontSize: 12 }}>blender</p>
+      
+      
     </Parallax>
   );
 };
@@ -66,9 +61,20 @@ const Skills = () => (
 
       {/* <SkillPie percent={90} name={"JavaScript"} /> */}
       <Flex className="skill__icons" justify="space-around" align="center">
-        <FontAwesomeIcon icon={['fab', 'html5']} size="5x" />
-        <FontAwesomeIcon icon={['fab', 'js']} size="5x" />
-        <FontAwesomeIcon icon={['fab', 'react']} size="5x" />
+      <Avatar src="python.png" />
+      <Avatar src="cpp.png" />
+      <Avatar src="mysql.png" />
+      <Avatar src="git.png" />
+      <Avatar src="azure.jpg" />
+	  <Avatar src="asp.png" />
+	  <Avatar src="ubuntu.jpg" />
+	  <Avatar src="mongodb.png" />
+	  <Avatar src="nginx.png" />
+	  <Avatar src="pytorch.png" />
+	  <Avatar src="matlab.png" />
+	  <Avatar src="r.jpg" />
+	  <Avatar src="tensorflow.png" />
+	  <Avatar src="java.png" />
         <FontAwesomeIcon icon={['fab', 'node']} size="5x" />
       </Flex>
 

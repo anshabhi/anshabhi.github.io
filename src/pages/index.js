@@ -7,20 +7,21 @@ import Home from '@components/Home/Home';
 import About from '@components/About/About';
 import Skills from '@components/Skills/Skills';
 import Projects from '@components/Projects/Projects';
-import CreativeCoding from '@components/CreativeCoding/CreativeCoding';
 import Concepts from '@components/Concepts/Concepts';
 import Contact from '@components/Contact/Contact';
+import SmallProjects2 from '@components/Projects/SmallProjects2';
+import Certs from '@components/About/Certs';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Anurag Hazra - Creative Web Designer" />
+    <SEO title="Abhinav Agarwal - Highly Skilled Software Developer" />
 
     <Home />
     <About />
     <Skills />
     <Projects />
-    <CreativeCoding />
-    <Concepts />
+    <SmallProjects2/>
+    <Certs />
     <Contact />
   </Layout>
 );

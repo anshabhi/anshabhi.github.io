@@ -1,9 +1,9 @@
 {
-  "name": "anurag-hazra",
+  "name": "abhinav-agarwal",
   "private": true,
-  "description": "Anurag Hazra Portfolio Site",
+  "description": "Abhinav Agarwal Portfolio Site",
   "version": "0.1.0",
-  "author": "Anurag Hazra <hazru.anurag@gmail.com>",
+  "author": "Abhinav Agarwal <abhina2@uw.edu>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",

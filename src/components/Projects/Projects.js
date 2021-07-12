@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -34,9 +34,7 @@ const Projects = () => {
                 src
                 title
               }
-              fields {
-                slug
-              }
+             
             }
           }
         }
@@ -45,8 +43,10 @@ const Projects = () => {
   );
 
   return (
+  
     <ProjectsWrapper id="projects" style={{ marginBottom: 100 }}>
-      <PageHeader>Side Projects</PageHeader>
+	
+      <PageHeader style={{ marginBottom: 80 }}>Full Stack Development Projects</PageHeader>
 
       {projects.allMarkdownRemark.edges.map(({ node }) => (
         <ProjectTemplate
@@ -55,12 +55,10 @@ const Projects = () => {
           desc={node.frontmatter.excerpt}
           links={
             <ProjectLinks>
-              <Button as={Link} to={node.fields.slug}>
-                Case Study
-              </Button>
-              <Button target="__blank" as="a" href={node.frontmatter.demo}>
+               <Button target="__blank" as="a" href={node.frontmatter.demo}>
                 Live Demo
               </Button>
+              
               <IconButton
                 label="github"
                 icon={['fab', 'github']}
@@ -75,9 +73,8 @@ const Projects = () => {
                 src={node.frontmatter.iframe}
               />
               <Tags>
-                <FontAwesomeIcon icon={['fab', 'js']} />
-                <FontAwesomeIcon icon={['fab', 'html5']} />
-                <FontAwesomeIcon icon={['fab', 'css3']} />
+                <FontAwesomeIcon icon={['fab', 'python']} />
+                
               </Tags>
             </ProjectPreview>
           }
@@ -85,7 +82,7 @@ const Projects = () => {
       ))}
 
       <SmallProjects />
-      <JsProjects />
+      <JsProjects/>
     </ProjectsWrapper>
   );
 };

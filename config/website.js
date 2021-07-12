@@ -1,24 +1,24 @@
 const meta = {
   // Metadata
-  siteTitle: 'Anurag Hazra - Creative Web Designer',
+  siteTitle: 'Abhinav Agarwal - Full Stack Developer & Aspiring Data Scientist',
   siteDescription:
-    'Anurag Hazra - Creative frontEnd web developer who loves javascript and modern web technologies.',
-  siteTitleAlt: 'Anurag Hazra',
-  siteShortName: 'Anurag Hazra',
+    'Abhinav Agarwal - Highly skilled software developer with a deep passion for full stack development and machine learning.',
+  siteTitleAlt: 'Abhinav Agarwal',
+  siteShortName: 'Abhinav Agarwal',
   siteUrl: 'https://anuraghazra.github.io', // No trailing slash!
 };
 
 const social = {
   siteLogo: `src/static/logo.svg`,
   siteBanner: `${meta.siteUrl}/images/social-banner.png`,
-  twitter: '@anuraghazru',
+  twitter: '',
 };
 
 const website = {
   ...meta,
   ...social,
-  disqusShortName: 'anuraghazra',
-  googleAnalyticsID: 'UA-119972196-1',
+  disqusShortName: '',
+  googleAnalyticsID: '',
   // Manifest
   themeColor: '#6D83F2',
   backgroundColor: '#6D83F2',

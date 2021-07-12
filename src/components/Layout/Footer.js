@@ -30,13 +30,13 @@ const Footer = () => (
     <Wrapper>
       <img width="35px" src={logo} alt="anurag hazra" />
       <p style={{ float: 'right' }}>
-        Made with love and
+        This theme was designed using
         <a href="https://gatsbyjs.org" target="__blank">
           &nbsp;gatsby&nbsp;
         </a>
-        by
+       and love by
         <a href="https://github.com/anuraghazra" target="__blank">
-          &nbsp;me
+          &nbsp; Anurag Hazra
         </a>
       </p>
     </Wrapper>

@@ -113,7 +113,7 @@ const Concepts = () => {
 
   return (
     <ConceptsWrapper id="concepts">
-      <PageHeader>Concepts</PageHeader>
+      <PageHeader>Other Achievements & Certificates</PageHeader>
       <Grid collapseHeight="1000px" showAll={showAll}>
         {concepts.allConceptsJson.edges.map((nodes, index) => {
           let currentImg = concepts.allFile.edges[index];

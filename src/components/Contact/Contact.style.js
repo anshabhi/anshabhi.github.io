@@ -27,7 +27,7 @@ export const LeftContent = styled.div`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 6%;
+  margin-left: 0%;
   width: fit-content;
   text-align: center;
 

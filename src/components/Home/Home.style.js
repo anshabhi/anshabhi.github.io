@@ -42,13 +42,14 @@ export const Intro = styled.section`
   }
 
   .home__CTA {
-    width: max-content;
+    width: 150px;
   }
   .home__social {
     color: ${props => props.theme.primaryColor};
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 24px;
+	width: 400px;
   }
 
   @media ${props => props.theme.media.tablet} {

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Johns Hopkins University Data Science Specialization",
+    "links": {
+      "demo": "https://facerec-portfolio.loca.lt",
+      "src": "https://github.com/anshabhi/JHU-R-Data-Science"
+    },
+    "description": " This Data Science with R specialization is an introductory level 10-course specialization offered by renowned professors from the Johns Hopkins University. This specialization teaches one the fundamental concepts and techniques to provide the perfect platform for getting started with Data Science."
+  },
+  {
+    "title": "Flipkart Object Localization Challenge",
+    "links": {
+      "demo": "https://facerec-portfolio.loca.lt",
+      "src": "https://github.com/anshabhi/flipkart-ml"
+    },
+    "description": " Generate a bounding box around the main object in an image using blob analysis in MATLAB. Achieves a remarkable performance of 12 fps on a system without a GPU."
+  },
+  {
+    "title": "Hackerrank NLP Challenges",
+    "links": {
+      "demo": "https://anshabhi.github.io/dubcen/",
+      "src": "https://github.com/anshabhi/NLP-Challenges"
+    },
+    "description": "Multiple Natural Language Processing (NLP) challenges solved using concepts such as Term Document Matrix (TDM), TF-IDF matrix, n-grams and transfer learning."
+  },
+  {
+    "title": "Stock Trading Bot",
+    "links": {
+      "demo": "https://anshabhi.github.io/dubcen/",
+      "src": "https://github.com/anshabhi/stock-trading-bot"
+    },
+    "description": "A small side project that builds an automated trading bot. The bot was able to perform net profitable trades in live market using Alpaca API, technical analysis and historical data."
+  }
+]

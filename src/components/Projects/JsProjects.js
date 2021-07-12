@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import PageHeader from '@common/PageHeader';
 import IFrame from '@common/IFrame';
-import Button, { IconButton } from '@common/Button';
+import { IconButton } from '@common/Button';
 
 import { ProjectLinks, ProjectPreview } from './ProjectTemplate.style';
 import ProjectTemplate from './ProjectTemplate';
@@ -35,8 +35,8 @@ const JsProjects = () => {
   );
 
   return (
-    <JsProjectsWrapper>
-      <PageHeader>Javascript Libraries</PageHeader>
+    <JsProjectsWrapper id = "jsprojects">
+      <PageHeader> Machine Learning Projects</PageHeader>
 
       {jsprojects.allJsprojectsJson.edges.map(({ node }) => (
         <ProjectTemplate
@@ -45,13 +45,7 @@ const JsProjects = () => {
           desc={node.description}
           links={
             <ProjectLinks>
-              <Button
-                target="__blank"
-                as="a"
-                href={node.links.github + '/archive/master.zip'}
-              >
-                Download
-              </Button>
+             
               <IconButton
                 label="github"
                 href={node.links.github}
