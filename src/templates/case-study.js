@@ -98,7 +98,7 @@ export const query = graphql`
   query caseStudyBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      html
+      
       fields {
         slug
       }

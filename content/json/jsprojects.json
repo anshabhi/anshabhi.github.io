@@ -3,7 +3,7 @@
   {
     "title": "(Research) A study on parameter pruning and quantization for faster alignment and averaging of subtomograms captured by cryo-electron tomography",
     "links": {
-      "codepen": "",
+      "codepen": "https://res.cloudinary.com/dosluptl1/image/upload/v1626100867/model-compress_dvwyjr.gif",
       "github": "https://github.com/anshabhi/model_compression"
     },
     "description": "We study how parameter pruning and quantization, a famous model compression method, can be applied to the alignment of subtomograms captured by cryo-electron tomography. We try to explain the physical significance of the model compression obtained through this method. Later, we compare the compression achieved and the error incurred for the compressed models through each technique. We present the results for five datasets, all simulated at different SNR levels. Gum-Net, an unsupervised model for Subtomogram Image Alignment and Averaging, has been used as the base model in this study."
@@ -11,7 +11,7 @@
   {
     "title": "(Research) Natural Language Query Formalization to SPARQL For Querying Knowledge Bases Using Rasa",
     "links": {
-      "codepen": "",
+      "codepen": "https://res.cloudinary.com/dosluptl1/image/upload/v1626100847/rasa_tiguvm.gif",
       "github": "https://github.com/anshabhi/rasa-project"
     },
     "description": "This paper discusses an AI-based approach with the design of an ontology searching chat-bot that incorporates natural language query formalization for querying linked data using RASA for entity extraction after intent recognition. A precision-recall analysis is performed using in-built RASA tools in conjunction with our own testing parameters, and it is found that the accuracy of our methodology is at parwith the current state of the art."

@@ -18,8 +18,8 @@
   {
     "title": "Oracle VM powering all the demos",
     "links": {
-      "demo": "https://anuraghazra.github.io/Verly.js",
-      "src": "https://github.com/anuraghazra/Verly.js"
+      "demo": "https://monitor-vm.loca.lt/monitorix",
+      "src": "https://github.com/anshabhi/oracle-vm"
     },
     "description": "All of the above demos are hosted on a virtual machine provided for free with oracle VM. Setting up this VM highlights my expertise in working with UNIX based systems. The VM is a 4 core AARCH64 based machine. The github repo contains many interesting details about the VM."
   }

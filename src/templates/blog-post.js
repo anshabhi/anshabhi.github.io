@@ -70,8 +70,8 @@ export const query = graphql`
   query BlogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt
-      html
-      timeToRead
+      
+      
       id
       frontmatter {
         date(formatString: "MMMM DD, YYYY", locale: "en")
