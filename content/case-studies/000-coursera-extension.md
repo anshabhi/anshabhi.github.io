@@ -1,7 +1,11 @@
 ---
-title: (Research) Browser Extension for MOOC Ontology Based Recommendations
+title: (Research) Firefox Browser Extension for MOOC Ontology Based Recommendations
 
-excerpt: Developed a Chrome browser extension that scrapes usage data such as content watched, revisits, time spent, score on an item anonymously from MOOC platforms. Also displays recommendations using interactive pop-ups, fetched from the server. The front end of the extension employs jQuery and Rest APIs while the backend is hosted on GCP App Engine running NodeJS. The extension collects data submissions from multiple users effectively and automatically. Also developed the Python scripts for analyzing the data collected and stored on Cloud SQL and Firestore and generating results as per the methodology defined by fellow researcher
+excerpt1: Developed a Firefox browser extension that scrapes usage data from MOOC platforms. 
+
+excerpt2: Built Using NodeJS running on free GCP AppEngine. Converts JSON data into SQL for storage
+
+excerpt3: Designed Python scripts to generate recommendations from the collected data by predicting FSLSM styles.
 
 iframe: https://res.cloudinary.com/dosluptl1/image/upload/v1625377475/extension_jegkdp.gif
  

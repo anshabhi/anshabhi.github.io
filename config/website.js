@@ -2,10 +2,10 @@ const meta = {
   // Metadata
   siteTitle: 'Abhinav Agarwal - Full Stack Developer & Aspiring Data Scientist',
   siteDescription:
-    'Abhinav Agarwal - Highly skilled software developer with a deep passion for full stack development and machine learning.',
+    'Abhinav Agarwal - CS grad student with a deep passion for full stack development and machine learning.',
   siteTitleAlt: 'Abhinav Agarwal',
   siteShortName: 'Abhinav Agarwal',
-  siteUrl: 'https://anuraghazra.github.io', // No trailing slash!
+  siteUrl: 'https://anshabhi.github.io', // No trailing slash!
 };
 
 const social = {
@@ -18,7 +18,7 @@ const website = {
   ...meta,
   ...social,
   disqusShortName: '',
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'G-16G3898RR5',
   // Manifest
   themeColor: '#6D83F2',
   backgroundColor: '#6D83F2',

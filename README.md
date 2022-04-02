@@ -1,10 +1,12 @@
 <p align="center">
   <a href="https://anuraghazra.github.io/">
     <img alt="Gatsby" src="./src/static/logo_noalpha.svg" width="100" />
-    <h2 align="center">Anurag Hazra</h2>
+    <h2 align="center">Abhinav Agarwal</h2>
   </a>
 </p> 
-<p align="center">Creative FrontEnd Web Developer</p>
+<p align="center">Passionate Software Developer</p>
+
+# Theme adapted from Anurag Hazra Portfoilio wesbite
 
 [![Build Status](https://travis-ci.org/anuraghazra/anuraghazra.github.io.svg?branch=develop)](https://travis-ci.org/anuraghazra/anuraghazra.github.io)
 ![GitHub](https://img.shields.io/github/license/anuraghazra/anuraghazra.github.io)
