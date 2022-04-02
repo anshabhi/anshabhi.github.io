@@ -7,6 +7,7 @@ import Flex from '@common/Flex';
 //import Quote from './Quote';
 import Avatar from './Avatar';
 import Avatar2 from './Avatar2';
+import Avatar3 from './Avatar3';
 import { AboutWrapper, AboutInfo } from './About.style';
 import { Card, CardIcon, CardText, CardTitle } from '@common/Card';
 const ThingsILove = () => (
@@ -17,10 +18,10 @@ const ThingsILove = () => (
         </CardIcon>
         <CardTitle> University of Washington Bothell </CardTitle>
       <CardText>
-   <p style={{ color: "red" }}>Autumn 2021 - Winter 2023</p>
+   <p style={{ color: "red" }}>September 2021 - March 2022</p>
 	<br />
-	Master of Science in Computer Science & Software Engineering
-<p style={{ fontSize: "12px" }}>  Expected Coursework: Machine Learning, Algorithm Design And Analysis, Advanced Topics in Computer Vision, Evaluating Software Design, Software Management, Deep Learning and Artificial Intelligence, Multimedia Database Systems</p>
+	Completed 16 credits towards MS in Computer Science & Software Engineering 
+<p style={{ fontSize: "12px" }}>  Completed Coursework: High Performance Computing, Evidence Based Design, Evaluating Software Design</p>
         
       </CardText>
     </Card>
@@ -35,7 +36,7 @@ const ThingsILove = () => (
 	  <br />
 	Bachelor of Technology in Information Technology
 	  
-	<p style={{ fontSize: "12px" }}>  Relevant Coursework: Data Structures, Algorithms, Database Systems, Distributed Systems, Operating Systems, Software Engineering, Pattern Recognition, Big Data Analytics, Neural Networks, Data Warehousing, Advanced Calculus and Combinatorics</p>
+	<p style={{ fontSize: "12px" }}>  Relevant Coursework: Data Structures, Database Systems, Distributed Systems, Operating Systems, Pattern Recognition, Big Data Analytics, Neural Networks, Data Warehousing, Data Mining, Advanced Calculus and Combinatorics</p>
 	  </CardText>
     </Card>
 
@@ -60,11 +61,11 @@ const About = () => {
           <Avatar src="hfest_avatar_2.jpg" />
         </div>
         <p>
-          Hi, I'm Abhinav Agarwal, a passionate software developer currently pursuing the MS in CSSE degree at the University of Washington.
-          Through a combination of course work, projects and certification, I have a wide range of skills across the domains of full stack development and machine learning.
+          Hi, I'm Abhinav Agarwal, a passionate student recently graduated from Bachelor of Technology in Information Technology program from Manipal Institute of Technology.
+          Through a combination of course work, projects and certifications, I have a wide range of skills across the domains of full stack development and machine learning.
           <br />
           <br />
-          I am currently looking for Summer 2022 internships. I am willing to relocate and I have CPT work authorization.
+          I am currently looking entry level full time software developer roles. I am based in India (GMT +5:30 timezone).
         </p>
       </AboutInfo>
       <PageHeader style={{ marginTop: "120px" }}>
@@ -75,40 +76,51 @@ const About = () => {
         Work Experience <i className="fas fa-heart" />
       </PageHeader>
       <Flex justify="space-between" align = "center">
-      <Card style={{ height: "350px" }}>
+      <Card style={{ height: "420px" }}>
+    <CardIcon>
+        <Avatar3 src="ms-uw-nv.png" />
+        </CardIcon>
+        <CardTitle> Sponsored by Microsoft, Nvidia and UW </CardTitle>
+      <CardText>
+	  <p style={{ color: "turquoise" }}>Graduate Student Research Project Member</p>
+	  <p style={{ color: "red" }}> April 2021 - July 2021 </p>
+        <ul style={{   listStyleType: "circle", textAlign: "left" }}>
+		<li> Performing several studies to evaluate how <i>artificial intelligence</i> could be more <i>energy-efficient.</i> </li>
+
+	<li> Centered around <b>Yolov4, BERT, and Turing-NLG</b> implemented in <b>Pytorch</b> and <b>ONNX</b>. </li>
+	</ul>
+      </CardText>
+    </Card>
+    <Card style={{ height: "370px" }}>
     <CardIcon>
         <Avatar2 src="icici-lombard.jpg" />
         </CardIcon>
         <CardTitle> ICICI Lombard </CardTitle>
       <CardText>
-	  <p style={{ color: "blue" }}>Software Developer Intern</p>
-	  <p style={{ color: "red" }}>February 2021 - August 2021</p>
-        Part of a team tasked with maintenance and development of the backend systems of 5 customer facing applications, coded primarily in ASP.NET, C# WebAPI and Oracle SQL database.
+	  <p style={{ color: "turquoise" }}> Software Developer Intern </p>
+	  <p style={{ color: "red" }}>February 2021 - July 2021</p>
+        <ul style={{   listStyleType: "circle", textAlign: "left" }}>
+		<li> Built new APIs for 5 different customer-facing <b>ASP.NET</b> applications using <b>SQL</b> database.  </li>
+
+	<li> Migrated a project with <i>multiple tables and procedures</i> from MS SQL to Oracle SQL Database. </li>
+	</ul>
+
       </CardText>
     </Card>
     <Card style={{ height: "450px" }}>
     <CardIcon>
         <Avatar2 src="cmu.png" />
         </CardIcon>
-        <CardTitle> Careneige Mellon University </CardTitle>
+        <CardTitle>Xu Labs, Careneige Mellon University </CardTitle>
       <CardText>
-	  <p style={{ color: "blue" }}>Virtual Intern</p>
+	  <p style={{ color: "turquoise" }}>Summer Intern</p>
 	  <p style={{ color: "red" }}>July 2020 - November 2020</p>
-       Worked on developing model compression methods using parameter pruning & quantization for faster alignment of subtomograms captured by cryo-electron
-tomography. The algorithms are implemented in Keras. Also, developed a GUI for a Python application for slicing and zooming into a tomogram model using
-Django and JavaScript.
+        <ul style={{   listStyleType: "circle", textAlign: "left" }}>
+		<li> Used <i>Parameter Pruning & Quantization</i> to reduce the size of a large and complex <b>Tensorflow</b> convolution neural network by 75% while preserving up to 70% of original accuracy.  </li>
 
-      </CardText>
-    </Card>
-    <Card style={{ height: "350px" }}>
-    <CardIcon>
-        <Avatar2 src="spicejet.png" />
-        </CardIcon>
-        <CardTitle> SpiceJet </CardTitle>
-      <CardText>
-	  <p style={{ color: "blue" }}>Information Technology Intern</p>
-	  <p style={{ color: "red" }}>May 2019 - June 2019</p>
-        Learnt the operations involved in DevOps and Agile Software Development. Developed and deployed containerized application on a Cluster using Kubernetes and studied orchestration between different nodes.
+	<li> Built a GUI web application for exploration of MRC models using <b>Django</b> framework and Metro UI </li>
+	</ul>
+	
       </CardText>
     </Card>
       </Flex>
