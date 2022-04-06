@@ -20,7 +20,9 @@ const JsProjects = () => {
         allJsprojectsJson {
           edges {
             node {
-              description
+             excerpt1
+			 excerpt2
+			 excerpt3
               title
               id
               links {
@@ -42,7 +44,9 @@ const JsProjects = () => {
         <ProjectTemplate
           key={node.id}
           title={node.title}
-          desc={node.description}
+          desc1={node.excerpt1}
+		  desc2={node.excerpt2}
+		  desc3={node.excerpt3}
           links={
             <ProjectLinks>
              

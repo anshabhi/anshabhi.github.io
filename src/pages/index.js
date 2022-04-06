@@ -14,7 +14,7 @@ import Certs from '@components/About/Certs';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Abhinav Agarwal - Highly Skilled Software Developer" />
+    <SEO title="Abhinav Agarwal - Passionate software developer looking for Full Time Roles" />
 
     <Home />
     <About />

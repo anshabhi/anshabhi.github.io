@@ -25,10 +25,10 @@ const Home = () => {
         <div className="home__text">
           <p>Hello, I’m</p>
           <h1>Abhinav Agarwal</h1>
-          <p className="adjust">Software Developer skilled in Full Stack developement and Machine Learning</p>
+          <p className="adjust">Computer Science graduate student skilled in Full Stack developement and Machine Learning</p>
 
           <div className="home__CTA">
-            <Button className="cta" as="a" href="#">
+            <Button className="cta" as="a" href="resume.pdf" target="_blank">
               Download Resume
             </Button>
 

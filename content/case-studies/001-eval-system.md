@@ -1,7 +1,10 @@
 ---
 title: Evaluation System Project
-excerpt: Evaluation System is a full featured production ready electronic testing system which provides a platform for teachers to conduct online tests efficiently. The system has been built with multiple optimizations and measures to amplify the performance while reducing the scope for malpractices.
+excerpt1: Full featured production ready electronic testing system which provides a platform for teachers to conduct online tests efficiently. Developed as per the custom requirements of my instructors at my undergrad college.
 
+excerpt2: Contains 20 AJAX APIs built using NodeJS Express and Nginx. Uses MySQL as the database layer.
+
+excerpt3: The frontend is built using HTML5/CSS3 based Metro UI. Uses Memcached for session encryption.
 
 iframe: https://res.cloudinary.com/dosluptl1/image/upload/v1625078009/evaluation-system-final_i4pmqv.gif 
 demo: https://portfolio-eval-inst.loca.lt/

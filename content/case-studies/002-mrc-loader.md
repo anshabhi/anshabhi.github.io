@@ -1,7 +1,10 @@
 ---
 title: AITOM GUI MRC Loader
-excerpt: I developed this tool during my internship at Xu Labs, CMU to aid zooming into and slicing a tomograph model stored as a MRC file. The tool has Django backend and makes use of libraries such as VTK, mayavi and django2_resumable. The model can be either uploaded for exploration, or an existing model can be selected from the library. 
+excerpt1: Developed during my internship at Xu Labs, CMU to aid zooming into and slicing a tomograph model stored as a MRC file. 
   
+excerpt2: The tool has Django backend and makes use of libraries such as VTK, mayavi and django2_resumable. For frontend CSS3 is used. 
+
+excerpt3: The model can be either uploaded for exploration, or an existing model can be selected from the library.  
 
 iframe: https://res.cloudinary.com/dosluptl1/image/upload/v1625381172/gui_eyxxjp.gif
 demo: https://aitom-gui.loca.lt/

@@ -29,7 +29,9 @@ const Projects = () => {
               id
               frontmatter {
                 demo
-                excerpt
+                excerpt1
+				excerpt2
+				excerpt3
                 iframe
                 src
                 title
@@ -52,7 +54,9 @@ const Projects = () => {
         <ProjectTemplate
           key={node.id}
           title={node.frontmatter.title}
-          desc={node.frontmatter.excerpt}
+          desc1={node.frontmatter.excerpt1}
+		  desc2={node.frontmatter.excerpt2}
+		  desc3={node.frontmatter.excerpt3}
           links={
             <ProjectLinks>
                <Button target="__blank" as="a" href={node.frontmatter.demo}>
@@ -73,7 +77,7 @@ const Projects = () => {
                 src={node.frontmatter.iframe}
               />
               <Tags>
-                <FontAwesomeIcon icon={['fab', 'python']} />
+                
                 
               </Tags>
             </ProjectPreview>

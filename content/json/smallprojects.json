@@ -1,11 +1,11 @@
 [
   {
-    "title": "Face Recognition API",
+    "title": "Facial Recognition System",
     "links": {
       "demo": "https://facerec-portfolio.loca.lt",
       "src": "https://github.com/anshabhi/ittproject"
     },
-    "description": "This project involves building an attendance system where students can mark attendance by their face. The instructors can control whether a subject should accept attendance or not. The system uses Azure API for face recognition, and Python CGI as the backend along with MongoDB database layer."
+    "description": "Lightweight and browser based attendance system where students can mark attendance by their face. The system uses Azure APIs for face recognition, and Python CGI as the backend along with MongoDB database layer."
   },
   {
     "title": "DubCen Calculators and Converters",
@@ -13,7 +13,7 @@
       "demo": "https://anshabhi.github.io/dubcen/",
       "src": "https://github.com/anshabhi/dubcen"
     },
-    "description": "DubCen is a collection of 50 beautiful calculators and a multi feature unit converter, which can convert 23 quantities and over 1000 units. DubCen is available for free under GNU License. I developed this project as a high school project."
+    "description": "DubCen is a collection of 50 beautiful calculators and a multi feature unit converter, which can convert 23 quantities and over 1000 units. DubCen is available for free under GNU License. I developed this software as a high school project."
   },
   {
     "title": "Oracle VM powering all the demos",
@@ -21,6 +21,6 @@
       "demo": "https://monitor-vm.loca.lt/monitorix",
       "src": "https://github.com/anshabhi/oracle-vm"
     },
-    "description": "All of the above demos are hosted on a virtual machine provided for free with oracle VM. Setting up this VM highlights my expertise in working with UNIX based systems. The VM is a 4 core AARCH64 based machine. The github repo contains many interesting details about the VM."
+    "description": "All of the above demos are hosted on a Oracle Cloud Free Tier virtual machine. Setting up this VM highlights my system admin skills. The VM is a 4 ARM vCPUs and 24 GB RAM. Installed Ubuntu, Nginx, Node, PM2 and NoMachine in an AARCH64 environment. The live demo link displays the current status of the VM. The github repo has some more details. "
   }
 ]
